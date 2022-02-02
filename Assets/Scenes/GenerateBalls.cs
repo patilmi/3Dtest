@@ -73,8 +73,6 @@ public class GenerateBalls : MonoBehaviour
             }
             ballList[i].transform.position = new Vector3(x, y, z);
 
-
-
             //ballList[i].transform.position = new Vector3(x + factor * (alpha * y + beta * z),
             //    y + factor * (gamma * z - alpha * x), z - factor * (gamma * y + beta * x));
         }
